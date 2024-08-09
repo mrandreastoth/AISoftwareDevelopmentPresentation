@@ -1,10 +1,47 @@
-.reveal .slides section {
-  width: 100%;
+html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
+  overflow: hidden;
+}
+
+.reveal {
+  display: flex;
+  justify-content: center; /* Center slides horizontally */
+  align-items: flex-start; /* Align slides to the top */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  overflow: hidden; /* Prevent any content from overflowing */
+}
+
+.reveal .slides {
+  width: 100%;
+  height: auto; /* Allow height to adjust based on content */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* Align content to the top */
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* Ensure no overflow within the slides */
+}
+
+.reveal .slides section {
+  max-width: 960px; /* Adjust this to the desired max-width of your content */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align section content to the top */
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
+  transform-origin: top; /* Ensure scaling happens from the top */
+  transform: scale(1);
 }
+
+.reveal .slides section img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}4

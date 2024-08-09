@@ -74,6 +74,8 @@ Note: Address the limitations of AI in understanding complex human logic and cre
 
 Note: Share personal experiences using AI in a real-world user story. Describe the retro-style demo project and how it helped reinforce initial findings. Highlight the pros and cons discovered during these experiments.
 
+---
+
 ## Slide 7: Context Window Issue
 ### Title: The Context Window Challenge
 **Content:**

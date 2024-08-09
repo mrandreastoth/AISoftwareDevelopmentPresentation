@@ -8,7 +8,9 @@
     <!-- Load Reveal.js and its plugins from CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/white.min.css" id="theme">
-    
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="reveal">
@@ -23,19 +25,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
 
-    <!-- Initialize Reveal.js with disableLayout -->
-    <script>
-        Reveal.initialize({
-            disableLayout: true,  // Disable automatic layout management
-            hash: true,  // Enable navigation with URL hash
-            slideNumber: false,  // Disable slide numbers
-            controls: true,  // Show navigation controls
-            progress: true,  // Show progress bar
-            center: true,  // Center the content vertically and horizontally
-            keyboard: true,  // Enable keyboard navigation
-            touch: true,  // Enable touch navigation
-            plugins: [RevealMarkdown, RevealNotes, RevealHighlight]  // Load the necessary plugins
-        });
-    </script>
+    <!-- Load external script for dynamic scaling -->
+    <script src="script.js"></script>
 </body>
 </html>
