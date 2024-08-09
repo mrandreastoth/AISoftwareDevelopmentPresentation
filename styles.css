@@ -29,10 +29,10 @@ p, li {
 
 /* Images */
 img {
-    max-width: 70%; /* Adjusts image size to fit the slide better */
+    max-width: 70%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Centers images */
+    margin: 0 auto;
 }
 
 /* Code blocks */
@@ -44,6 +44,12 @@ pre {
 
 /* Slides */
 .slides {
-    max-width: 90%; /* Makes sure slides don't overflow the screen */
+    max-width: 90%;
     margin: auto;
+}
+
+/* Scaling for elements */
+.zoom-element {
+    transform: scale(1.2);
+    transform-origin: 0 0;
 }

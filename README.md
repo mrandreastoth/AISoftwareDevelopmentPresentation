@@ -1,25 +1,27 @@
-# Using AI for Software Development Presentation
+# Presentation: Using AI for Software Development
 
-A comprehensive presentation on using AI for software development, including benefits, challenges, and practical applications.
+This repository contains a presentation on "Using AI for Software Development". The presentation, README, and all images included in this repository were generated using AI tools.
 
-## Presentation
+## Overview
 
-This repository contains a detailed presentation on integrating AI into software development processes. The presentation covers:
-
-- Historical context of AI in software development
-- Current applications and tools
-- Benefits and challenges of using AI
-- Personal research insights
-- Proposed solutions for in-house AI tools
-- Practical applications and future potential
-
-## Files
-
-- **presentation.md**: The main markdown file for the presentation.
-- **images/**: Directory containing all images used in the presentation.
+This presentation covers:
+- The historical context of AI in software development.
+- Current applications and benefits of AI in the industry.
+- Challenges and limitations of integrating AI.
+- Personal research insights on using AI in real-world projects.
+- Proposed solutions for in-house AI tool deployment.
 
 ## Viewing the Presentation
 
-To view the presentation, open the `presentation.md` file. All images are stored in the `images` sub-directory.
+The presentation can be viewed online [here](https://mrandreastoth.github.io/AISoftwareDevelopmentPresentation/).
 
-![Using AI for Software Development](images/presentation.webp "A vibrant image with the text 'AI in Software Development' overlayed on a background of a robot working with code, featuring icons representing different stages of AI integration in software development.")
+## Structure
+
+- **presentation.md**: The Markdown file containing the presentation content.
+- **index.html**: The HTML file that sets up the Reveal.js presentation.
+- **styles.css**: The CSS file for custom styling.
+- **images/**: Directory containing all images used in the presentation.
+
+## AI-Generated Content
+
+This repository, including the README, presentation, and all images, was fully generated using AI tools.
